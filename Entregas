@@ -1,0 +1,35 @@
+# Slides de Apresentação
+
+1. **Capa**
+   - Título: "Deploy de Perfil Profissional na AWS EC2"
+   - Seu nome
+   - Data
+
+2. **Objetivos**
+   - Demonstrar habilidades em cloud computing
+   - Publicar página pessoal na nuvem
+   - Atender requisitos do projeto
+
+3. **Arquitetura**
+   - Diagrama simples:
+     ```
+     [Seu PC] --SSH--> [EC2 AWS]
+                      ├── Ubuntu
+                      ├── Nginx
+                      └── Seu Site
+     ```
+
+4. **Passo a Passo**
+   - Criação da EC2
+   - Configuração do Security Group
+   - Setup do Nginx
+   - Deploy do site
+
+5. **Resultados**
+   - Inserir print da instância no console AWS
+   - Inserir print do terminal SSH
+   - Inserir print da página no navegador
+
+6. **Links**
+   - IP da instância: http://SEU-IP
+   - Repositório GitHub: LINK-DO-REPO
