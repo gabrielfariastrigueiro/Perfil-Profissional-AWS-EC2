@@ -1,0 +1,63 @@
+Páginas web: /var/www/html/
+
+Configs Nginx: /etc/nginx/
+
+
+### 3. site/index-template.html
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEU NOME - Perfil Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- COLOQUE SUA FOTO NO ARQUIVO assets/SUA-FOTO.jpg -->
+        <img src="assets/SUA-FOTO.jpg" alt="Foto de perfil" class="profile-pic">
+        
+        <h1>SEU NOME COMPLETO</h1>
+        <h2>SUA PROFISSÃO/ÁREA</h2>
+        
+        <section class="section">
+            <h3>Experiência Profissional</h3>
+            <div class="item">
+                <h4>CARGO 1</h4>
+                <p class="meta">Empresa 1 | Período</p>
+                <p>Descrição das atividades</p>
+            </div>
+            <div class="item">
+                <h4>CARGO 2</h4>
+                <p class="meta">Empresa 2 | Período</p>
+                <p>Descrição das atividades</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h3>Formação Acadêmica</h3>
+            <div class="item">
+                <h4>CURSO 1</h4>
+                <p class="meta">Instituição | Ano de conclusão</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h3>Tecnologias</h3>
+            <div class="skills">
+                <!-- ADICIONE SUAS TECNOLOGIAS -->
+                <span class="skill">TECNOLOGIA 1</span>
+                <span class="skill">TECNOLOGIA 2</span>
+                <span class="skill">TECNOLOGIA 3</span>
+            </div>
+        </section>
+        
+        <footer>
+            <!-- INSIRA SEUS LINKS REAIS -->
+            <a href="LINK-GITHUB" target="_blank">GitHub</a>
+            <a href="LINK-LINKEDIN" target="_blank">LinkedIn</a>
+        </footer>
+    </div>
+</body>
+</html>
