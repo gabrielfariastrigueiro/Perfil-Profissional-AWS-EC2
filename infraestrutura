@@ -1,0 +1,17 @@
+## Como Criar a Instância EC2
+
+1. Acesse o Console AWS EC2
+2. Clique em "Launch Instance"
+3. Nomeie como "meu-perfil-profissional"
+4. Selecione:
+   - Sistema Operacional: Ubuntu Server (LTS mais recente)
+   - Tipo: t2.micro (Free Tier)
+5. Em "Key Pair":
+   - Criar novo par de chaves
+   - Nome: "meu-perfil-key"
+   - Fazer download do .pem
+6. Em "Network Settings":
+   - Permitir tráfego HTTP (porta 80)
+   - Permitir tráfego HTTPS (porta 443 - opcional)
+   - Permitir SSH (porta 22) apenas do seu IP
+7. Lance a instância
